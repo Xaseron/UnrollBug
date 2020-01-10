@@ -4,7 +4,7 @@ import spock.lang.Unroll
 class UnrollBugSpec extends Specification {
 
     @Unroll
-    void "Valid Mandatory QueryValue #queryValues"(String queryValues, Boolean returnStatus) {
+    void "Valid Mandatory QueryValue #queryValues"() {
         expect:
         assert returnStatus
 
